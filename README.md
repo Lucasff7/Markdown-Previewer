@@ -1,12 +1,54 @@
-# React + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple **Markdown Previewer** built with **React** and **Marked.js**.  
+It allows you to write and preview GitHub-flavored Markdown in real-time.
 
-Currently, two official plugins are available:
+## 🛠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live Markdown editing and preview
+- GitHub-flavored Markdown support
+- Toggle full-screen mode for Editor or Preview
+- Syntax highlighting for code blocks
+- Responsive layout
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/markdown-previewer.git
+cd markdown-previewer
+npm install
+```
+
+### Run the App
+
+```bash
+npm run dev
+```
+
+Then open your browser and go to `http://localhost:5173`.
+
+## 📦 Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Marked.js](https://marked.js.org/)
+
+## 📁 Project Structure
+
+```
+markdown-previewer/
+├── public/
+├── src/
+│   ├── App.css
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
